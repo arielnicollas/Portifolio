@@ -129,17 +129,26 @@ img {
 
 .skills-style {
   display: flex;
-  padding: 10rem;
+  padding: 3rem;
   width: 100%;
   justify-content: space-around;
   color: white;
 }
 
 .skills-style h3 {
+  margin-top: 3rem;
   color: #63d6a6;
 }
 
 
 .style-name {
   color: #63d6a6;
+}
+
+.style-skills {
+  margin-top: 10rem;
+}
+
+.style-projects {
+  margin-top: 5rem;
 }

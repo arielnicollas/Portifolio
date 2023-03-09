@@ -33,12 +33,10 @@ function App() {
             <h1 className='style-nick'>Ariel Nicollas.</h1>
           </div>
           <div className='style-photo'>
-            <img src={MeImg} alt="" />  
+            <img src={MeImg} alt="" />
           </div>
-          
+
         </div>
-
-
 
         <p>Sou um desenvolvedor front-end apaixonado por criar aplicativos da web acessíveis
           <br></br>que os usuários adoram.
@@ -49,25 +47,29 @@ function App() {
           <hr />
         </div>
 
-        <div className='skills-style'>
-        <h3>HTML</h3>
-        <span>Avançado</span>
-
-        <h3>CSS</h3>
-        <span>Avançado</span>
-
-        <h3>Javascript</h3>
-        <span>Intermediário</span>
-
-        <h3>React</h3>
-        <span>Intermediário</span>
-      </div>
-
+        <div class='style-skills'>
+          <h1>Skills</h1>
         </div>
 
-      
+        <div className='skills-style'>
+          <h3>HTML</h3>
+          <span>Avançado</span>
 
+          <h3>CSS</h3>
+          <span>Avançado</span>
 
+          <h3>Javascript</h3>
+          <span>Intermediário</span>
+
+          <h3>React</h3>
+          <span>Intermediário</span>
+        </div>
+
+        <div class='style-projects'>
+          <h1>Projects</h1>
+        </div>
+
+      </div>
 
     </div>
   );
