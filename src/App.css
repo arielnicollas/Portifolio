@@ -1,7 +1,11 @@
 .App {
-  background-color: #040404;
+  background: rgb(13,9,9);
+  background: linear-gradient(0deg, rgba(13,9,9,1) 51%, rgba(4,4,4,1) 77%);
   height: 100vh;
+  font-family: 'Oswald', sans-serif;
 }
+/* #040404
+#323232 */
 
 h1 {
   margin: 0;
@@ -12,15 +16,13 @@ h1 {
   display: flex;
   margin-right: 15%;
   margin-left: 15%;
-  padding: 1rem;
-  border: 1px solid red;
+  padding: 3rem;
+  /* border: 1px solid red; */
 }
 
 header {
   display: flex;
   width: 100%;
-  border: 1px solid red;
-  
 }
 
 .container-two {
@@ -43,5 +45,39 @@ header {
 }
 
 .title-style{
-  width: 50%
+  width: 50%;
+  font-family: 'Shantell Sans';
+
+
+}
+
+.apresent-style {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15%;
+  margin-left: 15%;
+  height: 15vh;
+  padding: 3rem;
+  font-size: 1.8rem;
+  margin-top: 5rem;
+  font-family: 'Shantell Sans', cursive;
+}
+
+.apresent-style p {
+  color: white;
+  font-size: 1.4rem;
+  font-family: 'Oswald', sans-serif;
+}
+
+.description-style {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-right: 15%;
+  margin-left: 15%;
+  height: 15vh;
+  padding: 3rem;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  
 }
