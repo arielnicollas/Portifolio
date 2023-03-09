@@ -22,13 +22,24 @@ function App() {
 
       <div className='apresent-style'>
         <h1>Prazer em conhecê-lo!</h1>
-        <h1>Eu sou Ariel Nicollas.</h1>
-        <p>Sou um desenvolvedor front-end apaixonado por criar aplicativos da web acessíveis 
-        <br></br>que os usuários adoram.
+        <div>
+        <h1>Eu sou,</h1>
+        <h1 className='style-nick'>Ariel Nicollas.</h1>
+        </div>
+        
+        <p>Sou um desenvolvedor front-end apaixonado por criar aplicativos da web acessíveis
+          <br></br>que os usuários adoram.
         </p>
+
+        <div className='style-button'>
+          <button>Contate-me</button>
+          <hr/>
+        </div>
+
       </div>
 
-      
+
+
 
 
     </div>

@@ -47,8 +47,6 @@ header {
 .title-style{
   width: 50%;
   font-family: 'Shantell Sans';
-
-
 }
 
 .apresent-style {
@@ -69,6 +67,41 @@ header {
   font-family: 'Oswald', sans-serif;
 }
 
+.style-button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.style-button button {
+  color: white;
+  height: 3rem;
+  width: 10rem;
+  background-color: #63d6a6;
+  border-radius: 2rem;
+  font-family: 'Oswald', sans-serif;
+  cursor: pointer;
+  border: none;
+  font-size: 1.6rem;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button:hover {
+  background-color: #61d6b7;
+}
+
+.style-button hr {
+  width: 50%; 
+  border-color: #63d6a6;
+  /* align-self: start; */
+}
+
+.style-nick {
+  color: #63d6a6;
+}
+
 .description-style {
   color: white;
   display: flex;
@@ -81,3 +114,4 @@ header {
   margin-bottom: 2rem;
   
 }
+
