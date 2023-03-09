@@ -10,7 +10,8 @@ function App() {
 
         <div className='container-two'>
           <div className='title-style'>
-            <h1>Ariel Nicollas</h1>
+            <h1>Ariel </h1>
+            <h1 className='style-name'>Nicollas</h1>
           </div>
 
           <div className='icons-style'>
@@ -48,9 +49,23 @@ function App() {
           <hr />
         </div>
 
+        <div className='skills-style'>
+        <h3>HTML</h3>
+        <span>Avançado</span>
+
+        <h3>CSS</h3>
+        <span>Avançado</span>
+
+        <h3>Javascript</h3>
+        <span>Intermediário</span>
+
+        <h3>React</h3>
+        <span>Intermediário</span>
       </div>
 
+        </div>
 
+      
 
 
 

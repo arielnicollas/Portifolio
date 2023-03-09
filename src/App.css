@@ -1,7 +1,7 @@
 .App {
   background: rgb(13,9,9);
   background: linear-gradient(0deg, rgba(13,9,9,1) 51%, rgba(4,4,4,1) 77%);
-  height: 100vh;
+  height: 200vh;
   font-family: 'Oswald', sans-serif;
 }
 
@@ -125,4 +125,21 @@ button:hover {
 
 img {
   border-radius: 50%;
+}
+
+.skills-style {
+  display: flex;
+  padding: 10rem;
+  width: 100%;
+  justify-content: space-around;
+  color: white;
+}
+
+.skills-style h3 {
+  color: #63d6a6;
+}
+
+
+.style-name {
+  color: #63d6a6;
 }
