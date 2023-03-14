@@ -1,7 +1,12 @@
 import './App.css';
 import LinkedinImg from './assets/linkedin.svg'
 import GithubImg from './assets/github.svg'
-import MeImg from './assets/me.png'
+import Projetcs from './components/Projects';
+import './styles/projects.module.css';
+import SKills from './components/Skills';
+import Presentation from './components/Presentation';
+import About from './components/About';
+import Button from './components/Button';
 
 function App() {
   return (
@@ -22,56 +27,17 @@ function App() {
         </div>
       </div>
 
-      <div className='apresent-style'>
+      <Presentation></Presentation>
 
+      <About></About>
 
-        <div className='photo-container'>
+      <Button></Button>
 
-          <div className='container-description'>
-            <h1>Prazer em conhecê-lo! <br></br>Eu sou, </h1>
+      <SKills></SKills>
 
-            <h1 className='style-nick'>Ariel Nicollas.</h1>
-          </div>
-          <div className='style-photo'>
-            <img src={MeImg} alt="" />
-          </div>
-
-        </div>
-
-        <p>Sou um desenvolvedor front-end apaixonado por criar aplicativos da web acessíveis
-          <br></br>que os usuários adoram.
-        </p>
-
-        <div className='style-button'>
-          <button>Contate-me</button>
-          <hr />
-        </div>
-
-        <div class='style-skills'>
-          <h1>Skills</h1>
-        </div>
-
-        <div className='skills-style'>
-          <h3>HTML</h3>
-          <span>Avançado</span>
-
-          <h3>CSS</h3>
-          <span>Avançado</span>
-
-          <h3>Javascript</h3>
-          <span>Intermediário</span>
-
-          <h3>React</h3>
-          <span>Intermediário</span>
-        </div>
-
-        <div class='style-projects'>
-          <h1>Projects</h1>
-        </div>
-
-      </div>
-
+      <Projetcs></Projetcs>
     </div>
+    
   );
 }
 
